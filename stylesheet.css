@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #d68c45;
+}
+
+.nav-link {
+  color: #fefee3;
+}
+
+h1 {
+  font-family: "Bungee", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 26px;
+}
+
+.accordion-button {
+  background-color: #fefee3;
+  font-family: "Poiret One", sans-serif;
+  font-size: 26px;
+}
+
+.accordion {
+  --bs-accordion-btn-bg: #fefee3;
+  --bs-accordion-active-bg: #d68c45;
+  --bs-accordion-active-color: #fefee3;
+  --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn {
+  background-color: #d68c45;
+  border-color: #d68c45;
+  color: #fefee3;
+}
+
+.btn:hover {
+  background-color: #fefee3;
+  border-color: #d68c45;
+  color: #d68c45;
+}
+
+/* .btn:active {
+  background-color: #d68c45;
+}
+
+.btn:focus {
+  background-color: #d68c45;
+}
+
+.btn:visited {
+  background-color: #d68c45;
+}
+
+.btn-success {
+  background-color: #d68c45;
+} */
+
+/* For the index hero banner */
+/* Container holding the image and the text */
+.containerHero {
+  position: relative;
+  text-align: center;
+  color: #fefee3;
+}
+
+.containerHero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Black overlay with 50% transparency */
+  z-index: 1; /* Overlay is above the image */
+}
+
+/* Centered text */
+.centeredHero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Change the color as needed */
+  z-index: 2; /* Text is above the overlay */
+}
+
+.custom-height {
+  height: 250px; /* Adjust this value as per your requirement */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
