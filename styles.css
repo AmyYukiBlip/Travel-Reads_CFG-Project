@@ -1,0 +1,93 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+.h1{
+    font-family: "Bungee", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("Books-angle-resized.jpg");
+    background-color: #d68c45;
+    height: 500;
+    width: 2000px;
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.intro1{
+text-align: center;
+}
+.h2 {
+    font-family: "Poiret One", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .h3{
+    font-family: "Poiret One", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav {
+    background-color: #d68c45;
+    background-size: cover;
+    font-weight: 200;
+    padding: 20px;
+    text-align: left;
+  }
+  .home{
+    color: #fefee3;
+    padding: 10px;
+  }
+.accordion{
+    --bs-accordion-btn-bg:#4c956c;
+    --bs-accordion-active-bg: #2c6e49;
+    --bs-accordion-active-color: #fefee3;
+    --bs-accordion-btn-focus-box-shadow: none;
+  }
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+  }
+.btn {
+    background-color: #d68c45;
+    border-color: #d68c45;
+    color: #fefee3;
+  }
+  .btn:hover {
+    background-color: #fefee3;
+    border-color: #d68c45;
+    color: #d68c45;
+  }
+.enjoy{
+  text-align: center;
+}
+.container2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("Book-flatlay.jpg");
+    background-color: #d68c45;
+    height: 300px;
+    width: 1300px;
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.form{
+  text-align: center;
+}
+.btng {
+  background-color: #2c6e49;
+    border-color: #2c6e49;
+    color: #fefee3;
+}
+.btng:hover {
+  background-color: #fefee3;
+    border-color: #2c6e49;
+    color: #2c6e49;
+}
