@@ -27,14 +27,15 @@ h3 {
 }
 
 .accordion-button {
-  background-color: #fefee3;
+  background-color: #4c956c;
+  color: #fefee3;
   font-family: "Poiret One", sans-serif;
   font-size: 26px;
 }
 
 .accordion {
-  --bs-accordion-btn-bg: #fefee3;
-  --bs-accordion-active-bg: #d68c45;
+  --bs-accordion-btn-bg: #4c956c;
+  --bs-accordion-active-bg: #2c6e49;
   --bs-accordion-active-color: #fefee3;
   --bs-accordion-btn-focus-box-shadow: none;
 }
