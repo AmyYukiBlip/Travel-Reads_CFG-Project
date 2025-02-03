@@ -8,6 +8,7 @@ function displayGreeting() {
 }
 
 
+// function on reading list page
 function bookSuggestion(){
     let bookName = document.getElementById('bookInput').value;
     if (bookName == null || bookName == "") {
